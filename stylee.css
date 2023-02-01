@@ -1,0 +1,17 @@
+*{
+    margin: 0 ;
+box-sizing: border-box;
+    padding: 0;
+}
+.carousel{
+    height:100vh;
+}
+@media screen and(max-width: 612px)
+{
+    .cards.card{
+        width:100vh;
+        margin-bottom: 1.2 rem;
+    }
+    
+    
+*}
