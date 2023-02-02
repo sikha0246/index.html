@@ -6,12 +6,16 @@ box-sizing: border-box;
 .carousel{
     height:100vh;
 }
+.carousel.carousel-ineer img{
+    height:85vh;
+}
 @media screen and(max-width: 612px)
 {
     .cards.card{
         width:100vh;
         margin-bottom: 1.2 rem;
     }
-    
+    .cards.card:last-child{
+        margin-bottom:0;
     
 *}
